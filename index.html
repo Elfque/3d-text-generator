@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Text Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="menu-container">
+      <div class="input-container">
+        <input
+          type="text"
+          id="text"
+          placeholder="Enter your text"
+          class="text-input"
+        />
+        <button id="generate" class="generate-btn">Generate</button>
+      </div>
+      <div class="tweak-container"></div>
+    </div>
+    <canvas id="renderer"></canvas>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
