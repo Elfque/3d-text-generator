@@ -15,14 +15,14 @@ const pane = new Pane({
 const texturLoader = new THREE.TextureLoader();
 
 // TEXTURES
-const texture = texturLoader.load("/textures/matcaps/1.png");
-const texture1 = texturLoader.load("/textures/matcaps/2.png");
-const texture2 = texturLoader.load("/textures/matcaps/3.png");
-const texture3 = texturLoader.load("/textures/matcaps/4.png");
-const texture4 = texturLoader.load("/textures/matcaps/5.png");
-const texture5 = texturLoader.load("/textures/matcaps/6.png");
-const texture6 = texturLoader.load("/textures/matcaps/7.png");
-const texture7 = texturLoader.load("/textures/matcaps/8.png");
+const texture = texturLoader.load("./textures/matcaps/1.png");
+const texture1 = texturLoader.load("./textures/matcaps/2.png");
+const texture2 = texturLoader.load("./textures/matcaps/3.png");
+const texture3 = texturLoader.load("./textures/matcaps/4.png");
+const texture4 = texturLoader.load("./textures/matcaps/5.png");
+const texture5 = texturLoader.load("./textures/matcaps/6.png");
+const texture6 = texturLoader.load("./textures/matcaps/7.png");
+const texture7 = texturLoader.load("./textures/matcaps/8.png");
 
 const params = {
   color: "#30c5b6",
